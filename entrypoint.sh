@@ -1,11 +1,8 @@
 #!/bin/bash
 set -x
 
-ls -l /github
-whoami
-pwd
-ls -l
-
+python -m venv ./venv
 pip install -r requirements.txt
+source venv/bin/activate
 
 pylint src
