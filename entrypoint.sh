@@ -1,5 +1,6 @@
 #!/bin/bash
+set -x
 
-pip install -r requirements.txt
+sudo pip install -r requirements.txt
 
 pylint src
