@@ -1,0 +1,5 @@
+name: 'pylint stylecheck'
+description: 'run pylint against source code'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
