@@ -1,6 +1,9 @@
 #!/bin/bash
 set -x
 
-sudo pip install -r requirements.txt
+whoami
+pwd
+
+pip install -r requirements.txt
 
 pylint src
